@@ -57,8 +57,6 @@ public class ArmSystem {
         }
     }
 
-
-
     public void update(){
         aArm.setTargetPosition(aTarget);
         bArm.setTargetPosition(bTarget);
