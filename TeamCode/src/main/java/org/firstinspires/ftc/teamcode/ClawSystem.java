@@ -12,6 +12,7 @@ public class ClawSystem {
         up = hardwareMap.crservo.get("up");
         down = hardwareMap.crservo.get("down");
         speed = 1;
+        initServos();
     }
 
     private void initServos(){
